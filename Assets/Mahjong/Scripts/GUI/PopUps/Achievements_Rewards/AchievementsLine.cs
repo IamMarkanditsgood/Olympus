@@ -2,6 +2,7 @@
 using UnityEngine.UI;
 using UnityEngine.Events;
 using System;
+using TMPro;
 
 namespace Mkey
 {
@@ -9,7 +10,7 @@ namespace Mkey
 	{
         public Image achImage;
         [SerializeField]
-        private Text countText;
+        private TMP_Text countText;
         [SerializeField]
         private GameObject completeGroup;
         [SerializeField]

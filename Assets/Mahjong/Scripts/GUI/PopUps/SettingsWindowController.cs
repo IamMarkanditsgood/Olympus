@@ -1,11 +1,12 @@
-﻿using UnityEngine;
+﻿using TMPro;
+using UnityEngine;
 using UnityEngine.UI;
 
 namespace Mkey {
     public class SettingsWindowController : PopUpsController
     {
         [SerializeField]
-        private Text playerName;
+        private TMP_Text playerName;
         [SerializeField]
         private Image avatarImage;
         [SerializeField]

@@ -1,4 +1,5 @@
 using System.Collections;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,7 +10,7 @@ namespace Mkey
         [SerializeField]
         private int sceneNumber = 1;
         [SerializeField]
-        private Text levelNumber;
+        private TMP_Text levelNumber;
         [SerializeField]
         private string prefix = "Level ";
 
