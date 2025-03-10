@@ -74,7 +74,7 @@ namespace Mkey
 			}
             else
             {
-				if (getFreePU) MGui.ShowPopUp(getFreePU);
+				//if (getFreePU) MGui.ShowPopUp(getFreePU);
 			}
 		}
 	}

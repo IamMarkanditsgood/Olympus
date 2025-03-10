@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: ClassicTheme_Sprites
   m_EditorClassIdentifier: 
   simpleSprites:
-  - {fileID: 21300000, guid: 2706b35f7f8e61b41ae4293ad6129dcd, type: 3}
-  - {fileID: 21300000, guid: 87e2f029c9755da4a93840dcad4f19e7, type: 3}
+  - {fileID: 21300000, guid: bb83ad91775067a4d8556d4efc73e389, type: 3}
+  - {fileID: 21300000, guid: 057349d798a9b1e4c8588cab772b0e3d, type: 3}
   - {fileID: 21300000, guid: 2f61e65cf077aed49ad7050d06d72e67, type: 3}
   - {fileID: 21300000, guid: 00a7f460e22e88c48a8dbc6140cd0645, type: 3}
   - {fileID: 21300000, guid: eff6e1629d4add74787192f57bd3807b, type: 3}
-  - {fileID: 21300000, guid: b3c940d481ea02b47a5b485bdec8f186, type: 3}
+  - {fileID: 21300000, guid: 115717448a29f00438d996e748bf8b7d, type: 3}
   - {fileID: 21300000, guid: 07708468965c82b45a712f1483da7815, type: 3}
   - {fileID: 21300000, guid: c2ca194ea1a20e545b5b0443a487afe1, type: 3}
   - {fileID: 21300000, guid: b4d86f075a358e641a14c57af67e1819, type: 3}

@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,7 +12,7 @@ namespace Mkey
 		public Image buttonImage;
 		public Button button;
 		public Sprite checkedSprite;
-		public Text themeName;
+		public TMP_Text themeName;
 		public RectTransform iconsParent;
 		public Image iconPrefab;
 		public int index = 0;

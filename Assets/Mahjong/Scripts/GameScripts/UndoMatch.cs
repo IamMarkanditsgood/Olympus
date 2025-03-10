@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,7 +11,7 @@ namespace Mkey
 		[SerializeField]
 		private GameObject undoGroup; // gui parent
 		[SerializeField]
-		private Text undoCounterText;
+		private TMP_Text undoCounterText;
 
 		#region temp vars
 		private int maxCount = 10000;  // maximum number of saves

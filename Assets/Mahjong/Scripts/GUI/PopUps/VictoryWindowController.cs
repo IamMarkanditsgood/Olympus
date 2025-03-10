@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System;
+using TMPro;
 
 namespace Mkey
 {
@@ -8,9 +9,9 @@ namespace Mkey
     {
         [Space(8)]
         [SerializeField]
-        private Text NextLevelNumber;
+        private TMP_Text NextLevelNumber;
         [SerializeField]
-        private Text ScoreCount;
+        private TMP_Text ScoreCount;
         [SerializeField]
         private Text greetingText;
 
@@ -82,7 +83,8 @@ namespace Mkey
                 SimpleTween.Value(ScoreCount.gameObject, oldCount, newCount, 0.5f).SetOnUpdate((float val) =>
                 {
                     oldCount = (int)val;
-                    SetTextString(ScoreCount, oldCount.ToString());
+                    ScoreCount.text = oldCount.ToString();
+                    //SetTextString(ScoreCount, oldCount.ToString());
                 });
             }
         }
@@ -94,7 +96,8 @@ namespace Mkey
                 if (score > maxScore) score = maxScore;
                 float perc =  (float)score / (float)maxScore * 100f;
                 string percS = perc.ToString("0.0");
-                SetTextString(ScoreCount, score.ToString() + " (" + percS + "%)");
+                ScoreCount.text = score.ToString() + " (" + percS + ")";
+               // SetTextString(ScoreCount, score.ToString() + " (" + percS + "%)");
 
                 if (greetingText) greetingText.text = (perc < 100f) ? good : exceptional;
             }

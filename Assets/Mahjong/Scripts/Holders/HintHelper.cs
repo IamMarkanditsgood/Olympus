@@ -69,7 +69,7 @@ namespace Mkey
             // the hint is already there
             if (GameBoard.Instance.IsAlreadyHint())
             {
-				GuiController.Instance.ShowMessage("", "Matching tiles are already selected", 2, null);
+				//GuiController.Instance.ShowMessage("", "Matching tiles are already selected", 2, null);
 				return;
             }
             if (hints > 0)
@@ -80,7 +80,7 @@ namespace Mkey
 			}
             else
             {
-				if (getFreePU) MGui.ShowPopUp(getFreePU);
+				//if (getFreePU) MGui.ShowPopUp(getFreePU);
             }
 		}
 	}

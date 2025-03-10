@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,7 +13,7 @@ namespace Mkey
 	public class OutText : MonoBehaviour
 	{
 		#region temp vars
-		private Text text;
+		private TMP_Text text;
         #endregion temp vars
 
 		public void IntToText(int val)
@@ -22,7 +23,7 @@ namespace Mkey
 
 		private void SetText(string newText)
         {
-			if (!text) text = GetComponent<Text>();
+			if (!text) text = GetComponent<TMP_Text>();
 			if (text) text.text = newText;
         }
 	}

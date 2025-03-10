@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,7 +11,7 @@ namespace Mkey
         private GameObject ScoreGroup;
 
         [SerializeField]
-        private Text scoreAmountText;
+        private TMP_Text scoreAmountText;
         [SerializeField]
         private bool showTargetScore;
         [SerializeField]

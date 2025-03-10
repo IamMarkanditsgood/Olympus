@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,7 +11,7 @@ namespace Mkey
         private GameObject countGroup;
 
         [SerializeField]
-        private Text countText;
+        private TMP_Text countText;
 
         #region temp vars
         private GameBoard MBoard { get { return GameBoard.Instance; } }
